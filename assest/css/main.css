@@ -229,9 +229,70 @@ main {
 .in-header-left-banner-blocks {
     margin-top: 100px;
 }
-.banner-header:after {
-    content: '';
+
+.line-decor {
     width: 100%;
-    height: 100%;
-    background-image: url('../../assest/img/line.svg');
+    height: 174px;
+    background-image: url(../../assest/img/line.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 34px;
+}
+
+.master-klass h2 {
+    font-size: 45px;
+    line-height: 53px;
+    color: #3E3E3E;
+    margin: 0;
+    font-family: Pragmatica-light, sans-serif;
+    text-align: center;
+}
+
+.master-klass {
+    margin-top: 20px;
+}
+
+
+.tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    border-bottom: 1px solid #999;
+}
+
+.tabs li {
+    float: left;
+    border: 1px solid #999;
+    border-bottom: none;
+    background: #e0e0e0;
+}
+
+.tabs li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.tabs li a:hover {
+    background: #ccc;
+}
+
+.tabs li.active,
+.tabs li.active a:hover {
+    font-weight: bold;
+    background: #fff;
+}
+
+.tab_container {
+    border: 1px solid #999;
+    border-top: none;
+    background: #fff;
+}
+
+.tab_content {
+    padding: 20px;
+    font-size: 16px;
 }
