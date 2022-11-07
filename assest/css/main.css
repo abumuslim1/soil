@@ -90,6 +90,7 @@ header {
 .menu-header {
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: center;
     background: #AAA28A;
     padding: 36px 40px 36px 40px;
@@ -99,6 +100,53 @@ header {
 .menu-header ul {
     padding: 0;
     margin: 0;
+}
+
+.sub-menu {
+    position: absolute;
+    display: none;
+    padding: 0 50px !important;
+    /* margin-top: 5px !important; */
+    z-index: 99999999;
+    min-width: 160px;
+    clear: both;
+    transition: 0.4s;
+    background: #F7F3E8;
+    left: -100%;
+    border: 1px solid #8A8A8A;
+}
+
+.sub-menu-with:after {
+    content: 'ᐯ';
+    position: absolute;
+    right: 6px;
+}
+
+.menu-header ul li:hover .sub-menu {
+    display: block;
+    clear: both;
+    transition: 0.4s;
+}
+
+.sub-menu li {
+    display: block !important;
+    transition: 0.4s;
+    padding: 10px 0 !important;
+    text-align: center;
+}
+
+.sub-menu li a {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-transform: none !important;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+.sub-menu li:hover {
+    transition: 0.4s;
 }
 
 .wrap-header {
@@ -111,6 +159,7 @@ header {
     padding: 0 22px;
     font-family: Pragmatica-medium, sans-serif;
     font-weight: 400;
+    position: relative;
 
 }
 
@@ -185,7 +234,7 @@ main {
     text-transform: uppercase;
     background: #3E3E3E;
     border-radius: 20px;
-    padding: 24px 0px 24px 24px;
+    padding: 24px 12px 24px 12px;
     display: block;
     text-align: center;
 }
@@ -541,9 +590,11 @@ main {
 .lines-chips {
     margin-top: 50px;
 }
+
 .line-zachemto {
     position: relative;
 }
+
 .line-zachemto:after {
     content: '';
     width: 100px;
@@ -552,4 +603,42 @@ main {
     position: absolute;
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
+}
+
+.width-otziv {
+    width: 1230px;
+}
+
+.slick-prev:before {
+    content: '' !important;
+    background-image: url(../../assest/img/arrow-left.svg);
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -42%;
+}
+
+.slick-next:before {
+    content: '' !important;
+    background-image: url(../../assest/img/arrow-right.svg);
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -42%;
+}
+
+.height-pd h2 {
+    margin-top: 62px;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #4a585a;
+}
+.logo-footer img {
+    width: 100px;
 }

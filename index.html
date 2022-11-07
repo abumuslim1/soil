@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assest/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assest/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assest/slick/slick-theme.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -31,11 +33,17 @@
     <section class="wrap-header width-fix">
         <div class="logo-and-menu">
             <div class="logo-header">
-                <img src="assest/img/logo.svg" alt="логотип">
+                <a href="/"> <img src="assest/img/logo.svg" alt="логотип"></a>
             </div>
             <div class="menu-header">
                 <ul>
-                    <li><a href="">Студия</a></li>
+                    <li class="sub-menu-with"><a href="">Студия</a>
+                        <ul class="sub-menu">
+                            <li><a href="">Наша команда</a></li>
+                            <li><a href="">Работы гостей</a></li>
+                            <li><a href="">Блог</a></li>
+                        </ul>
+                    </li>
                     <li><a href="">Мастер-классы</a></li>
                     <li><a href="">Курсы</a></li>
                     <li><a href="">Подарить другу</a></li>
@@ -290,9 +298,7 @@
             </div>
         </div>
     </section>
-
     <div class="line-decor-2"></div>
-
     <section class="master-klass">
         <h2>Курсы</h2>
         <div class="block-tabs-home width-fix">
@@ -415,9 +421,7 @@
             </div>
         </div>
     </section>
-
     <div class="line-decor-2"></div>
-
     <section class="master-klass">
         <h2>Soil - это выражение души и тела</h2>
         <div class="width-fix">
@@ -482,7 +486,6 @@
             </div>
         </div>
     </section>
-
     <section class="gift-home">
         <div class="line-decor-2"></div>
         <div class="width-fix">
@@ -570,9 +573,77 @@
             </div>
         </div>
     </section>
+    <section class="master-klass height-pd">
+        <h2>Отзывы</h2>
+        <div class="width-fix width-otziv">
+            <div class="multiple-items">
+                <div><img src="assest/img/inst1.png" alt=""></div>
+                <div><img src="assest/img/inst2.png" alt=""></div>
+                <div><img src="assest/img/inst3.png" alt=""></div>
+                <div><img src="assest/img/inst2.png" alt=""></div>
+            </div>
+        </div>
+    </section>
 </main>
+<footer>
+    <div class="width-fix">
+        <div class="blocks-footer">
+            <div class="block-footer-home">
+                <div class="logo-footer"><a href="/"> <img src="assest/img/logo-white.svg" alt=""></a></div>
+                <ul class="socials list-reset">
+                    <li>
+                        <a href="https://www.instagram.com/soil__studio/ " target="_blank" rel="noopener">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px"
+                                 viewBox="0 0 30 30" xml:space="preserve">
+    								<desc>Instagram</desc>
+                                <path d="M15,11.014 C12.801,11.014 11.015,12.797 11.015,15 C11.015,17.202 12.802,18.987 15,18.987 C17.199,18.987 18.987,17.202 18.987,15 C18.987,12.797 17.199,11.014 15,11.014 L15,11.014 Z M15,17.606 C13.556,17.606 12.393,16.439 12.393,15 C12.393,13.561 13.556,12.394 15,12.394 C16.429,12.394 17.607,13.561 17.607,15 C17.607,16.439 16.444,17.606 15,17.606 L15,17.606 Z">
+    								</path>
+                                <path d="M19.385,9.556 C18.872,9.556 18.465,9.964 18.465,10.477 C18.465,10.989 18.872,11.396 19.385,11.396 C19.898,11.396 20.306,10.989 20.306,10.477 C20.306,9.964 19.897,9.556 19.385,9.556 L19.385,9.556 Z">
+    								</path>
+                                <path d="M15.002,0.15 C6.798,0.15 0.149,6.797 0.149,15 C0.149,23.201 6.798,29.85 15.002,29.85 C23.201,29.85 29.852,23.202 29.852,15 C29.852,6.797 23.201,0.15 15.002,0.15 L15.002,0.15 Z M22.666,18.265 C22.666,20.688 20.687,22.666 18.25,22.666 L11.75,22.666 C9.312,22.666 7.333,20.687 7.333,18.28 L7.333,11.734 C7.333,9.312 9.311,7.334 11.75,7.334 L18.25,7.334 C20.688,7.334 22.666,9.312 22.666,11.734 L22.666,18.265 L22.666,18.265 Z">
+    								</path>
+    							</svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=79687336773 " target="_blank" rel="noopener">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px"
+                                 viewBox="0 0 99 99" style="enable-background:new 0 0 99 99;" xml:space="preserve">
+    								<path d="M63.892 53.114C63.143 52.739 59.462 50.928 58.775 50.678C58.089 50.428 57.589 50.303 57.09 51.053C56.591 51.803 55.156 53.489 54.719 53.989C54.282 54.489 53.845 54.551 53.097 54.176C52.348 53.801 49.935 53.011 47.075 50.459C44.849 48.473 43.346 46.021 42.909 45.272C42.472 44.522 42.862 44.117 43.237 43.744C43.574 43.408 43.986 42.869 44.36 42.432C44.734 41.995 44.859 41.682 45.109 41.183C45.359 40.683 45.234 40.246 45.047 39.871C44.86 39.496 43.362 35.81 42.738 34.311C42.13 32.851 41.513 33.049 41.053 33.026C40.617 33.004 40.117 33 39.618 33C39.119 33 38.308 33.187 37.621 33.937C36.935 34.687 35 36.498 35 40.184C35 43.87 37.683 47.431 38.058 47.93C38.432 48.43 43.338 55.993 50.85 59.237C52.637 60.009 54.031 60.469 55.119 60.814C56.913 61.384 58.545 61.304 59.836 61.111C61.275 60.896 64.266 59.3 64.89 57.551C65.514 55.802 65.514 54.302 65.327 53.99C65.14 53.677 64.641 53.489 63.892 53.114Z">
+    								</path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M49 98C76.062 98 98 76.062 98 49C98 21.938 76.062 0 49 0C21.938 0 0 21.938 0 49C0 76.062 21.938 98 49 98ZM50.221 17C58.238 17.003 65.763 20.124 71.421 25.789C77.08 31.454 80.194 38.983 80.189 46.992C80.182 63.515 66.737 76.96 50.22 76.96H50.208C45.193 76.958 40.264 75.7 35.887 73.312L20 77.479L24.252 61.949C21.63 57.405 20.25 52.249 20.252 46.967C20.258 30.443 33.703 17 50.221 17Z">
+    								</path>
+    							</svg>
+                        </a>
+                    </li>
+                    <li class="color-invert">
+                        <a href="https://vk.com/soilstudio" target="_blank" rel="noopener">
+                            <img src="assets/images/vk-logo.png" width="26" height="26">
+                        </a>
+                    </li>
+                    <li class="color-invert">
+                        <a href="https://t.me/soilstudiopottery" target="_blank" rel="noopener">
+                            <img src="assets/images/telegram.png" width="26" height="26">
+                        </a>
+                    </li>
+                </ul>
+                <div class="info-footer">
+                    Все права защищены <br>
+                    @SOIL CERAMIC STUDIO 2022 <br>
+                    ИП Левина К.С. <br>
+                    ИНН 502732601511 <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assest/slick/slick.min.js"></script>
+
 <script>
     $(document).ready(function ($) {
         $('.tab_content').hide();
@@ -601,6 +672,23 @@
 
             $(selectTab).fadeIn();
         });
+    });
+    $('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+        ]
     });
 </script>
 </body>
