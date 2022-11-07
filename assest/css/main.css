@@ -244,6 +244,15 @@ main {
     margin-top: 34px;
 }
 
+.line-decor-2 {
+    width: 100%;
+    height: 85px;
+    background-image: url(../../assest/img/line-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 57px;
+}
+
 .master-klass h2 {
     font-size: 45px;
     line-height: 53px;
@@ -258,31 +267,32 @@ main {
 }
 
 
-.tabs {
+.tabs, .tabs-kurse {
     margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
     display: flex;
+    border: 3px solid #B39F55;
+    border-radius: 50px;
 }
 
-.tabs li {
+.tabs li, .tabs-kurse li {
     float: left;
     border-bottom: none;
-    background: #e0e0e0;
     width: 100%;
 }
 
-.tabs li:first-child {
+.tabs li:first-child, .tabs-kurse li:first-child {
     border-radius: 30px 0 0 30px;
 }
 
-.tabs li:last-child {
+.tabs li:last-child, .tabs-kurse li:last-child {
     border-radius: 0 30px 30px 0;
 
 }
 
-.tabs li a {
+.tabs li a, .tabs-kurse li a {
     display: block;
     padding: 24px;
     color: #000;
@@ -292,10 +302,10 @@ main {
     font-family: Pragmatica-light, sans-serif;
 }
 
-.tabs li a:hover {
+.tabs li a:hover, .tabs-kurse li a:hover {
 }
 
-.tabs li.active {
+.tabs li.active, .tabs-kurse li.active {
     font-weight: bold;
     background: #B39F55;
 
@@ -305,7 +315,7 @@ main {
     border-top: none;
 }
 
-.tab_content {
+.tab_content, .tab_content-kurse {
     font-size: 16px;
     margin-top: 74px;
 }
@@ -378,9 +388,10 @@ main {
     display: block;
     font-family: 'Geometria-medium', sans-serif;
 }
+
 .block-white-b-f-r-t {
     border-radius: 20px;
-    text-decoration:underline ;
+    text-decoration: underline;
     border: 1px solid #3E3E3E;
     padding: 15px 25px 15px 25px;
     text-transform: uppercase;
@@ -388,4 +399,95 @@ main {
     display: block;
     font-family: 'Geometria-medium', sans-serif;
     color: #3E3E3E;
+}
+
+.blocks-stat-d {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 64px;
+    margin-top: 40px;
+    row-gap: 86px;
+}
+
+.img-block-soil-stat img {
+    border-radius: 30px;
+    max-width: 623px;
+}
+
+.title-block-soil-stat h4, .title-block-soil-stat a {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 25px 0;
+    color: #000;
+    font-family: Pragmatica-light, sans-serif;
+}
+
+.desc-content-block-soil-stat p {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: Pragmatica-light, sans-serif;
+}
+
+.button-give-gift {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+}
+
+.button-give-gift a {
+    border: 3px solid #AAA28A;
+    border-radius: 30px;
+    font-size: 45px;
+    line-height: 53px;
+    font-family: Pragmatica-medium, sans-serif;
+    color: #3E3E3E;
+    display: block;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.block-desc-gift {
+    background: #AAA28A;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.block-gift-desc-l {
+    width: 62%;
+}
+
+.block-gift-desc-l p {
+    font-size: 22px;
+    line-height: 26px;
+    word-break: break-word;
+    font-family: Pragmatica-light, sans-serif;
+}
+
+.block-buttons-gift-desc {
+    display: flex;
+    flex-direction: column;
+}
+.bttn-gift-1 {
+    background: #3E3E3E;
+    border-radius: 20px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    width: 40%;
+    font-family: Pragmatica-medium, sans-serif;
+    padding: 27px 0;
+}
+.bttn-gift-2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Pragmatica-medium, sans-serif;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #000000;
 }
