@@ -82,6 +82,11 @@ header {
     display: flex;
 }
 
+.logo-header img {
+    width: 100px;
+    padding-right: 44px;
+}
+
 .menu-header {
     display: flex;
     align-items: center;
@@ -258,41 +263,129 @@ main {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    border-bottom: 1px solid #999;
+    display: flex;
 }
 
 .tabs li {
     float: left;
-    border: 1px solid #999;
     border-bottom: none;
     background: #e0e0e0;
+    width: 100%;
+}
+
+.tabs li:first-child {
+    border-radius: 30px 0 0 30px;
+}
+
+.tabs li:last-child {
+    border-radius: 0 30px 30px 0;
+
 }
 
 .tabs li a {
     display: block;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 24px;
     color: #000;
     text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    font-family: Pragmatica-light, sans-serif;
 }
 
 .tabs li a:hover {
-    background: #ccc;
 }
 
-.tabs li.active,
-.tabs li.active a:hover {
+.tabs li.active {
     font-weight: bold;
-    background: #fff;
+    background: #B39F55;
+
 }
 
 .tab_container {
-    border: 1px solid #999;
     border-top: none;
-    background: #fff;
 }
 
 .tab_content {
-    padding: 20px;
     font-size: 16px;
+    margin-top: 74px;
+}
+
+.block-tabs-home {
+    margin-top: 41px;
+}
+
+.img-block-f-result-tab img {
+    max-width: 420px;
+    border-radius: 30px 30px 0 0;
+}
+
+.flex-result-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.block-f-result-tab {
+    background: #fff;
+    border-radius: 30px;
+}
+
+.title-block-f-result-tab h4 {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Geometria-medium', sans-serif;
+    font-weight: 500;
+}
+
+.wrap-padding-text {
+    padding: 10px 23px 23px 23px
+}
+
+.title-block-f-result-tab {
+    padding: 8px 23px 0 23px;
+}
+
+.text-content-block-f-result-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Geometria-light', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.price-block-f-result-tab {
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Geometria-light', sans-serif;
+    color: #000;
+    padding: 22px 0;
+}
+
+.bttns-block-f-result-tab {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.bttn-gray-b-f-r-t {
+    background: #3E3E3E;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    font-family: 'Geometria-medium', sans-serif;
+}
+.block-white-b-f-r-t {
+    border-radius: 20px;
+    text-decoration:underline ;
+    border: 1px solid #3E3E3E;
+    padding: 15px 25px 15px 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    font-family: 'Geometria-medium', sans-serif;
+    color: #3E3E3E;
 }
