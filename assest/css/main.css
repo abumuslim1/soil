@@ -58,7 +58,8 @@ header {
 .f-elemens-line-up {
     display: flex;
     justify-content: center;
-    font-family: Geometria-Bold, sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -157,7 +158,7 @@ header {
     list-style-type: none;
     display: inline-block;
     padding: 0 22px;
-    font-family: Pragmatica-medium, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     position: relative;
 
@@ -197,9 +198,9 @@ main {
 }
 
 .block-header-title h1 {
-    font-family: Pragmatica-bold, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 50px;
     margin: 0;
     line-height: 59px;
@@ -207,7 +208,7 @@ main {
 }
 
 .block-text-in-header h4 {
-    font-family: Geometria-light, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -225,7 +226,7 @@ main {
 }
 
 .two-blocks-footer-in-header a {
-    font-family: Pragmatica-bold, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -265,7 +266,7 @@ main {
     border-radius: 20px;
     display: block;
     text-align: center;
-    font-family: Pragmatica-bold, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -307,7 +308,8 @@ main {
     line-height: 53px;
     color: #3E3E3E;
     margin: 0;
-    font-family: Pragmatica-light, sans-serif;
+    font-family: 'Oranienbaum', serif;
+
     text-align: center;
 }
 
@@ -348,7 +350,8 @@ main {
     text-decoration: none;
     font-size: 25px;
     text-align: center;
-    font-family: Pragmatica-light, sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    sans-serif;
 }
 
 .tabs li a:hover, .tabs-kurse li a:hover {
@@ -392,8 +395,8 @@ main {
 .title-block-f-result-tab h4 {
     margin: 0;
     font-size: 18px;
-    font-family: 'Geometria-medium', sans-serif;
-    font-weight: 500;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
 }
 
 .wrap-padding-text {
@@ -407,7 +410,8 @@ main {
 .text-content-block-f-result-tab {
     font-style: normal;
     font-weight: 300;
-    font-family: 'Geometria-light', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+
     font-size: 16px;
     line-height: 20px;
 }
@@ -415,7 +419,8 @@ main {
 .price-block-f-result-tab {
     font-size: 18px;
     line-height: 23px;
-    font-family: 'Geometria-light', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+
     color: #000;
     padding: 22px 0;
 }
@@ -433,9 +438,12 @@ main {
     padding: 15px 25px 15px 25px;
     color: #fff;
     text-transform: uppercase;
+    border: none;
     font-size: 12px;
     display: block;
-    font-family: 'Geometria-medium', sans-serif;
+    font-weight: 500;
+    font-family: 'PT Sans', sans-serif;
+
 }
 
 .block-white-b-f-r-t {
@@ -446,7 +454,8 @@ main {
     text-transform: uppercase;
     font-size: 12px;
     display: block;
-    font-family: 'Geometria-medium', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
     color: #3E3E3E;
 }
 
@@ -468,13 +477,15 @@ main {
     line-height: 36px;
     margin: 25px 0;
     color: #000;
-    font-family: Pragmatica-light, sans-serif;
+    font-family: 'Oranienbaum', serif;
+
 }
 
 .desc-content-block-soil-stat p {
     font-size: 30px;
     line-height: 36px;
-    font-family: Pragmatica-light, sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    sans-serif;
 }
 
 .button-give-gift {
@@ -488,7 +499,7 @@ main {
     border-radius: 30px;
     font-size: 45px;
     line-height: 53px;
-    font-family: Pragmatica-medium, sans-serif;
+    font-family: 'Oranienbaum', serif;
     color: #3E3E3E;
     display: block;
     text-align: center;
@@ -512,7 +523,8 @@ main {
     font-size: 22px;
     line-height: 26px;
     word-break: break-word;
-    font-family: Pragmatica-light, sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    sans-serif;
 }
 
 .block-buttons-gift-desc {
@@ -568,7 +580,8 @@ main {
     font-size: 22px;
     line-height: 27px;
     color: #3E3E3E;
-    font-family: Pragmatica-medium, sans-serif;
+    font-family: 'Oranienbaum', serif;
+
     text-transform: uppercase;
     margin: 20px 0;
 }
@@ -576,7 +589,8 @@ main {
 .desc-chips p {
     margin: 0;
     font-size: 22px;
-    font-family: Pragmatica-light, sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    sans-serif;
     line-height: 28px;
     text-align: center;
     color: #3E3E3E;
@@ -629,6 +643,10 @@ main {
     left: -42%;
 }
 
+.height-pd {
+    margin-bottom: 60px;
+}
+
 .height-pd h2 {
     margin-top: 62px;
     margin-bottom: 50px;
@@ -639,6 +657,470 @@ footer {
     height: auto;
     background: #4a585a;
 }
+
 .logo-footer img {
     width: 100px;
+}
+
+.socials li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.socials {
+    padding: 0;
+}
+
+.color-invert {
+    filter: invert(100%);
+}
+
+.copy {
+    margin-top: 1.25rem;
+    line-height: 1.55;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.blocks-footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+
+.desc-f-b {
+    padding: 0;
+}
+
+.desc-f-b h3 {
+    font-family: 'Oranienbaum', serif;
+    color: #fff;
+}
+
+.desc-f-b li {
+    list-style-type: none;
+    margin-bottom: 0.625rem;
+}
+
+.desc-f-b li a {
+    line-height: 1.55;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.block-footer-home {
+    width: 25%;
+}
+
+.container {
+    background-color: #eee;
+    height: 100vh;
+    padding: 40px;
+}
+
+.c-modal {
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: scroll;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000002;
+}
+
+.c-modal__container {
+    position: relative;
+    margin: 156px 20px;
+}
+
+.c-modal__content {
+    background: #fff;
+    cursor: default;
+    padding: 24px 20px 24px;
+    position: relative;
+    z-index: 1000003;
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.c-modal__content__background {
+    left: 0;
+    max-width: 265px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.c-modal__title {
+    font: 700 21px/28px;
+    margin: 0;
+    padding: 0;
+}
+
+.c-modal__text {
+    font: 300 16px/24px;
+    padding-top: 10px;
+}
+
+.c-modal__button {
+    margin-top: 20px;
+}
+
+.title-form-home {
+    margin: 0;
+    font-size: 30px;
+    line-height: 36px;
+    color: #3E3E3E;
+    margin-bottom: 32px;
+}
+
+.title-form-home:before {
+    content: '';
+    background-image: url(../../assest/img/line-form.svg);
+    width: 100%;
+    height: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6%;
+
+}
+
+.form-home-s label {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.form-home-s {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-home-s input {
+    border: none;
+    /* border: 1px solid #2D2D2D; */
+    border-bottom: 1px solid #2D2D2D;
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4D4D4D;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 30px;
+}
+
+.check-fix input {
+    margin-bottom: 0;
+    width: auto;
+
+}
+
+.checl-ots {
+    padding: 12px 0;
+}
+
+.dropdown-form {
+    border: 1px solid #222222;
+    background: none;
+    width: 400px;
+    height: 34px;
+    margin: 18px 0;
+}
+
+.bttn-send-form-home {
+    background: #3E3E3E;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    width: 80%;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0px auto;
+    display: block;
+}
+
+.info-p {
+    text-align: center;
+    color: #444444;
+}
+
+.info-p a {
+    color: #444444;
+    text-decoration: underline;
+}
+
+.desktop-none {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .menu-header {
+        display: none;
+    }
+
+    .line-up-h {
+        display: none;
+    }
+
+    .logo-header img {
+        width: 88px;
+        padding-right: 0;
+        margin-top: 10px;
+    }
+
+    .width-fix {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .f-blocks-header-banner {
+        display: flex;
+        align-items: revert;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .block-right-header-banner img {
+        width: 122px;
+    }
+
+    .in-header-left-banner-blocks {
+        margin-top: 10px;
+    }
+
+    .block-header-title h1 {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        margin: 0;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #020202;
+    }
+
+    .block-right-header-banner {
+        text-align: center;
+    }
+
+    .block-text-in-header {
+        max-width: 561px;
+        margin: 15px 0 23px 0;
+    }
+
+    .block-text-in-header h4 {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        margin: 0;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #3E3E3E;
+    }
+
+    .two-blocks-footer-in-header a {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 16px 0px 16px 0px;
+        text-align: center;
+    }
+
+    .bttn-l-in-header a {
+        min-width: 146px;
+    }
+
+    .two-blocks-footer-in-header {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        justify-content: stretch;
+        max-width: 677px;
+    }
+
+    .bttn-r-in-header a {
+        min-width: 183px;
+    }
+
+    .block-full-width-in-header a {
+        padding: 16px;
+        font-size: 10px;
+        line-height: 12px;
+        color: #000000;
+    }
+
+    .line-decor {
+        display: none;
+    }
+
+    .master-klass h2 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 24px;
+        color: #3E3E3E;
+        margin-top: 14px;
+    }
+
+    .line-decor-2 {
+        width: 100%;
+        height: 32px;
+        margin-top: 42px;
+    }
+
+    .flex-result-tab {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .img-block-f-result-tab img {
+        width: 100%;
+
+        border-radius: 30px 30px 0 0;
+    }
+
+    .button-give-gift a {
+
+        padding: 19px 0;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        font-weight: 700;
+        color: #3E3E3E;
+    }
+
+    .block-desc-gift {
+        background: #AAA28A;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 21px;
+    }
+
+    .blocks-stat-d {
+        display: -webkit-inline-box;
+        overflow: scroll;
+        column-gap: 64px;
+        margin-top: 40px;
+        row-gap: 86px;
+        width: 100%;
+    }
+
+    .img-block-soil-stat img {
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .title-block-soil-stat h4, .title-block-soil-stat a {
+        margin: 13px 0;
+        font-size: 17px;
+        line-height: 20px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .desc-content-block-soil-stat p {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .block-gift-desc-l p {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .desktop-none {
+        display: block;
+    }
+
+    .bttn-gift-1 {
+        background: #3E3E3E;
+        border-radius: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        display: block;
+        text-transform: uppercase;
+        width: 77%;
+        padding: 12px 0;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+    }
+
+    .bttn-gift-2 {
+        margin-top: 10px;
+        text-decoration-line: underline;
+        font-size: 8px;
+        line-height: 9px;
+        color: #2D2D2D;
+        padding-bottom: 10px;
+        display: block;
+    }
+
+    .block-gift-desc-r img {
+        width: 177px;
+    }
+
+    .blocks-chips {
+        padding: 15px;
+    }
+
+    .title-chips h3, .title-chips a {
+        margin: 10px 0;
+        font-size: 14px;
+        line-height: 17px;
+        color: #3E3E3E;
+    }
+
+    .img-chips img {
+        width: 90px;
+    }
+
+    .desc-chips p {
+        margin: 0;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+        color: #3E3E3E;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #3E3E3E;
+    }
+
+    .blocks-chips-no-back {
+        padding: 15px;
+    }
+
+    .block-footer-home {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .blocks-footer {
+        display: flex;
+        align-items: center;
+        padding: 40px 0;
+        text-align: center;
+        flex-direction: column;
+    }
 }
