@@ -800,6 +800,7 @@ footer {
 .form-home-s {
     width: 90%;
     margin: 0 auto;
+    font-family: "PT Sans";
 }
 
 .form-home-s input {
@@ -856,10 +857,9 @@ footer {
     text-decoration: underline;
 }
 
-.desktop-none {
+.dropdown-mobile {
     display: none;
 }
-
 @media (min-width: 1024px ) and (max-width: 1024px) {
 
     .logo-header img {
@@ -904,12 +904,21 @@ footer {
     .line-up-h {
         display: none;
     }
-
+    .up-tabs, .down-tabs {
+        display: none !important;
+    }
+    .wrap-text {
+        display: none;
+    }
+    .dropdown-mobile {
+        display: block;
+    }
     .logo-header img {
         width: 88px;
         padding-right: 0;
         margin-top: 10px;
     }
+
 
     .width-fix {
         width: 90%;
@@ -1201,6 +1210,18 @@ footer {
     font-size: 16px;
     margin: 0 0 15px;
 }
-p:last-child {
-    margin-bottom: 0;
+
+.none {display: none}
+.tab_select {margin-top: 15px;}
+.dropdown-mobile select {
+    border: 2px solid #B39F55;
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    background: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'PT Sans';
+    padding: 12px 0;
 }
